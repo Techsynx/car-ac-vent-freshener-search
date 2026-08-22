@@ -41,7 +41,7 @@ Description: "${description}"
 Respond ONLY with valid JSON in this exact structure:
 {"is_vent_freshener": true_or_false, "confidence": 0_to_100, "reason": "short 1-sentence explanation"}`;
 
-      const response = await fetch(`https://generativelanguage.googleapis.com/v1beta/models/gemini-1.5-flash:generateContent?key=${geminiApiKey}`, {
+      const response = await fetch(`https://generativelanguage.googleapis.com/v1beta/models/gemini-2.5-flash:generateContent?key=${geminiApiKey}`, {
         method: 'POST',
         headers: { 'Content-Type': 'application/json' },
         body: JSON.stringify({
@@ -103,7 +103,7 @@ Fraud flags to look for:
 Respond ONLY with valid JSON in this exact structure:
 {"genuine_score": 0_to_100, "is_genuine": true_or_false, "genuine_reason": "short concise explanation"}`;
 
-      const response = await fetch(`https://generativelanguage.googleapis.com/v1beta/models/gemini-1.5-flash:generateContent?key=${geminiApiKey}`, {
+      const response = await fetch(`https://generativelanguage.googleapis.com/v1beta/models/gemini-2.5-flash:generateContent?key=${geminiApiKey}`, {
         method: 'POST',
         headers: { 'Content-Type': 'application/json' },
         body: JSON.stringify({

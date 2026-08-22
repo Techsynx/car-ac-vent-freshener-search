@@ -13,12 +13,12 @@ export default function App() {
   const [query, setQuery] = useState('lavender vent air freshener');
   const [products, setProducts] = useState([]);
   const [loading, setLoading] = useState(false);
-  const [status, setStatus] = useState('live'); // 'live' | 'saved'
+  const [status, setStatus] = useState('live');
   const [forceFresh, setForceFresh] = useState(false);
   const [filteredOutCount, setFilteredOutCount] = useState(0);
 
   // Sorting & Filter states
-  const [sortBy, setSortBy] = useState('trust'); // 'trust' | 'rating' | 'price-asc' | 'price-desc' | 'reviews'
+  const [sortBy, setSortBy] = useState('trust');
   const [selectedStore, setSelectedStore] = useState('all');
   const [genuineOnly, setGenuineOnly] = useState(false);
 
@@ -184,8 +184,8 @@ export default function App() {
 
       {/* Footer */}
       <footer className="border-t border-slate-800/80 bg-slate-950 py-6 text-center text-xs text-slate-400 space-y-1">
-        <p>© 2026 AeroVent Search Tool. Built with React, Supabase, Google Gemini Flash & Vercel.</p>
-        <p className="text-[11px] text-slate-400">Section 10 GitHub repository: <strong className="text-slate-300">Techsynx/car-ac-vent-freshener-search</strong></p>
+        <p>© 2026 AeroVent Search Tool. Built by Muhammad Aman.</p>
+        <p className="text-[11px] text-slate-400">Section 10 GitHub repository: <strong className="text-slate-300">MuhammadAmanMajeed/car-ac-vent-freshener-search</strong></p>
       </footer>
 
       {/* Modals */}
