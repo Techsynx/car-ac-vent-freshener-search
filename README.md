@@ -69,7 +69,7 @@ node scripts/eval_dataset.js
 ---
 
 ## 📦 Deployment (Vercel & Supabase)
-1. Push code to GitHub repository (`Techsynx/car-ac-vent-freshener-search`).
+1. Push code to GitHub repository (`MuhammadAmanMajeed/car-ac-vent-freshener-search`).
 2. Import repo into Vercel.
 3. Configure environment variables in Vercel project settings.
 4. Deploy with one click.
